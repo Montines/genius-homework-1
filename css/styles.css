@@ -1,0 +1,77 @@
+:root {
+	--color-brand: #2B7FFF;
+	--color-brand-secondary: #011C44;
+	--color-secondary-dark: #4A4A4A;
+	--color-secondary-light: #FFF;
+}
+
+/* Base */
+body {
+	color: var(--color-brand-secondary);
+}
+
+ul {
+	list-style-type: none;
+}
+
+/* Button */
+
+.button {
+	color: var(--color-brand-secondary);
+	font-family: Roboto;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	border-radius: 32px;
+	border: 2px solid var(--color-brand);
+	cursor: pointer;
+}
+
+.button:hover {
+	color: var(--color-secondary-light);
+	font-family: Roboto;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	border-radius: 32px;
+	background: #2B7FFF;
+}
+
+/* Link */
+
+.link {
+	color: var(--color-brand-secondary);
+}
+
+.link:hover {
+	color: var(--color-brand);
+}
+
+/* Main section */
+
+.main-title {
+	color: var(--color-brand);
+	font-family: Play;
+	font-size: 140px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 114px;
+	text-transform: capitalize;
+}
+
+.main-info {
+	background: rgba(255, 255, 255, 0.25);
+	backdrop-filter: blur(5px);
+}
+
+/* Reincarnate section */
+
+.section-title {
+	color: var(--color-brand-secondary);
+}
+
+.section-title .accent {
+	color: var(--color-brand);
+}
