@@ -1,3 +1,39 @@
+/* play-regular - latin */
+@font-face {
+	font-display: swap;
+	font-family: 'Play';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/play-v19-latin-regular.woff2') format('woff2');
+}
+
+/* play-700 - latin */
+@font-face {
+	font-display: swap;
+	font-family: 'Play';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/play-v19-latin-700.woff2') format('woff2');
+}
+
+/* roboto-regular - latin */
+@font-face {
+	font-display: swap;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2');
+}
+
+/* roboto-700 - latin */
+@font-face {
+	font-display: swap;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/roboto-v30-latin-700.woff2') format('woff2');
+}
+
 :root {
 	--color-brand: #2B7FFF;
 	--color-brand-secondary: #011C44;
@@ -10,6 +46,7 @@
 
 body {
 	color: var(--color-brand-secondary);
+	font-family: sans-serif;
 }
 
 ul {
@@ -75,7 +112,7 @@ ul {
 }
 
 /* Reincarnate section */
-
+/* Colors for all sections section-title */
 .section-title {
 	color: var(--color-brand-secondary);
 }
@@ -91,3 +128,29 @@ ul {
 }
 
 /* Procedures-section */
+
+.procedures-text {
+	color: var(--color-secondary-light);
+}
+
+/* Footer */
+
+.footer-link {
+	color: var(--color-secondary-light);
+}
+
+.footer-link:hover {
+	color: var(--color-brand);
+}
+
+.address-link {
+	color: var(--color-secondary-light);
+}
+
+.privacy-policy {
+	color: var(--color-secondary-light);
+}
+
+.data-protected {
+	color: #747272;
+}
