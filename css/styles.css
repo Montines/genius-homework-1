@@ -46,7 +46,11 @@
 
 body {
 	color: var(--color-brand-secondary);
-	font-family: sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: normal
 }
 
 ul {
@@ -64,7 +68,7 @@ ul {
 
 .main-title {
 	color: var(--color-brand);
-	font-family: Play;
+	font-family: 'Play', sans-serif;
 	font-size: 140px;
 	font-style: normal;
 	font-weight: 700;
@@ -105,52 +109,99 @@ ul {
 
 .link {
 	color: var(--color-brand-secondary);
+	text-decoration: none;
 }
 
 .link:hover {
 	color: var(--color-brand);
+	font-weight: 700;
 }
 
 /* Reincarnate section */
 /* Colors for all sections section-title */
+
 .section-title {
 	color: var(--color-brand-secondary);
+	font-family: 'Play', sans-serif;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-align: center;
 }
 
 .section-title .accent {
 	color: var(--color-brand);
 }
 
+.section-title-first {
+	color: var(--color-brand-secondary);
+	font-family: 'Play', sans-serif;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.section-title-first .accent-beauty {
+	color: var(--color-brand);
+	text-transform: capitalize;
+}
+
+.reincarnate-text {
+	font-size: 22px;
+	line-height: 38px;
+}
+
+.reincarnate-text .brand {
+	font-weight: 600;
+	text-transform: capitalize;
+}
+
 /* Advantages section */
 
 .advantages-text {
 	color: var(--color-little-dark);
+	line-height: 24px;
 }
 
 /* Procedures-section */
 
 .procedures-text {
 	color: var(--color-secondary-light);
+	font-size: 22px;
+	line-height: 26px;
 }
 
 /* Footer */
 
 .footer-link {
 	color: var(--color-secondary-light);
+	font-size: 16px;
+	text-decoration: none;
 }
 
 .footer-link:hover {
 	color: var(--color-brand);
+	font-weight: 700;
 }
 
 .address-link {
 	color: var(--color-secondary-light);
+	font-size: 16px;
+	font-style: normal;
+	text-decoration: none;
 }
 
 .privacy-policy {
 	color: var(--color-secondary-light);
+	font-size: 16px;
+	font-style: normal;
+	text-decoration: none;
 }
 
 .data-protected {
 	color: #747272;
+	font-style: normal;
+	font-size: 13px;
 }
