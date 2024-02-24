@@ -24,7 +24,27 @@ ul {
 }
 
 .button:hover {
+	color: var(--color-brand-dark);
 	border-radius: 32px;
 	border: 2px solid var(--color-brand-light);
 	background-color: transparent;
+}
+
+/* Link */
+.link {
+	color: var(--color-brand-dark);
+}
+
+.link:hover {
+	color: var(--color-brand-light);
+}
+
+/* Hero section */
+.hero-title {
+	color: var(--color-brand-light);
+}
+
+/* About us section */
+.section-title .accent {
+	color: var(--color-brand-light);
 }
