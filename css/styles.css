@@ -116,7 +116,7 @@ ul {
 
 /* About us section */
 .section-title {
-	font-family: 'Play';
+	font-family: 'Play', sans-serif;
 	font-size: 64px;
 	font-style: normal;
 	font-weight: 700;
